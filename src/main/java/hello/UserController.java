@@ -9,9 +9,6 @@ import java.util.concurrent.atomic.AtomicLong;
 @Controller
 public class UserController {
 
-    private static final String template = "Hello, %s!";
-    private final AtomicLong counter = new AtomicLong();
-
     private UserRepo repo;
 
     @Autowired
